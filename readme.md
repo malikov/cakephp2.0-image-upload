@@ -88,8 +88,10 @@ function picture(){
    * custom_name is a custom name for the uploaded image
    * 
    */   
-  $options = array('thumbnail'=>array("max_width"=>180,"max_height"=>100, "path"=>$thumbnailDestination),'max_width'=>700);
-      
+  $options = array('thumbnail'=>array("max_width"=>180,
+                                      "max_height"=>100, 
+                                      "path"=>$thumbnailDestination),
+                   'max_width'=>700);    
   try{
         //this is where the magic happens we call the function upload using the imageuploader component 
         $output = $this->ImageUploader->upload($file,$fileDestination,$options);
