@@ -10,7 +10,7 @@ The FileUploaderComponent.php and ImageUploaderComponent.php files are component
 Download and place the FileUploaderComponent.php and ImageUploaderComponent.php files in your app/Controller/Component
 
 ###step 2 
-Create in a view your form in our case we had a file input with the following name="data['file']['image']".
+Create in a view your form. In our case we had a file input with the following name="data['file']['image']".
 
 We used the following code :
 
