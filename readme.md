@@ -1,6 +1,5 @@
 #[CakePHP image upload files](http://www.githup.com/cakephp2.0_image_upload)
 
-
 ##Overview
 The FileUploaderComponent.php and ImageUploaderComponent.php files are components that will help you upload a file (in our case an image) to your server and in the process create thumbnails if necessary
 ---
